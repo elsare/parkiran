@@ -17,10 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('konsumen','ParkiranController@index');
+Route::get('/konsumen','ParkiranController@index');
 Route::post('/konsumen/create','ParkiranController@create');
 Route::get('/konsumen/{id}/edit', 'ParkiranController@edit');
 Route::post('/konsumen/{id}/update', 'ParkiranController@update');
 Route::get('/konsumen/{id}/delete', 'ParkiranController@delete');
 
-Route::get('transaksi','ParkiranController@transaksi');
+Route::get('/transaksi','ParkiranController@transaksi');

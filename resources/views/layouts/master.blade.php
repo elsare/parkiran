@@ -15,7 +15,7 @@
 					<a class="nav-link" href="/konsumen">Konsumen</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/transkasi">Transaksi</a>
+					<a class="nav-link" href="/transaksi">Transaksi</a>
 				</li>
 			</ul>			
 		</div>
