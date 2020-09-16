@@ -24,3 +24,8 @@ Route::post('/konsumen/{id}/update', 'ParkiranController@update');
 Route::get('/konsumen/{id}/delete', 'ParkiranController@delete');
 
 Route::get('/transaksi','ParkiranController@transaksi');
+Route::post('/transaksi/create','ParkiranController@createTransaksi');
+
+Route::get('/daftarTransaksi','ParkiranController@daftarTransaksi'); 
+
+Route::post('/getbiaya', 'ParkiranController@getbiaya');
