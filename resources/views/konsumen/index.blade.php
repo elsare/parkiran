@@ -82,8 +82,8 @@
 						<label for="exampleFormControlSelect1">Jenis Kelamin</label>
 						<select name="kelamin" class="form-control" id="exampleFormControlSelect1">
 							<option></option>
-							<option value="L" @if($konsumen->kelamin == "L") selected @endif>Laki-Laki</option>
-							<option value="P" @if($konsumen->kelamin == "P") selected @endif>Perempuan</option>	
+							<option value="L">Laki-Laki</option>
+							<option value="P">Perempuan</option>	
 						</select>
 					</div>
 					<div class="form-group">
